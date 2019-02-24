@@ -14,13 +14,23 @@ import { MatMenuModule } from "@angular/material/menu";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
+import { HomeComponent } from './Pages/home/home.component';
+import { ServicesComponent } from './Pages/services/services.component';
+import { ContactComponent } from './Pages/contact/contact.component';
+import { GalleryComponent } from './Pages/gallery/gallery.component';
+import { AboutUsComponent } from './Pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     LinkButtonComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    HomeComponent,
+    ServicesComponent,
+    ContactComponent,
+    GalleryComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

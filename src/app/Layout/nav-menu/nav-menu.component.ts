@@ -47,4 +47,8 @@ export class NavMenuComponent implements OnInit {
       this.changeDetectorRef.detectChanges();
     });
   }
+
+  closeNav() {
+    this.toggleService.toggle();
+  }
 }

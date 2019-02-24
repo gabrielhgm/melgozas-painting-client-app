@@ -5,8 +5,8 @@ import {
   Output,
   EventEmitter
 } from "@angular/core";
-import { Link } from "src/app/Classes/link/link";
-import { SideNavToggleService } from "src/app/Services/side-nav-toggle/side-nav-toggle.service";
+import { Link } from "../../Classes/link/link";
+import { SideNavToggleService } from "../../Services/side-nav-toggle/side-nav-toggle.service";
 import { MediaMatcher } from "@angular/cdk/layout";
 
 @Component({

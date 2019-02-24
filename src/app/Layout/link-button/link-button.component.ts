@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, ChangeDetectorRef } from "@angular/core";
-import { Link } from "src/app/Classes/link/link";
+import { Link } from "../../Classes/link/link";
 import { MediaMatcher } from "@angular/cdk/layout";
 
 @Component({

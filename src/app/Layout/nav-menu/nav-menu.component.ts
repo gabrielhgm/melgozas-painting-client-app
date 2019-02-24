@@ -1,8 +1,8 @@
 import { Component, OnInit, ChangeDetectorRef, ViewChild } from "@angular/core";
 import { MediaMatcher } from "@angular/cdk/layout";
 import { MatSidenav } from "@angular/material/sidenav";
-import { Link } from "src/app/Classes/link/link";
-import { SideNavToggleService } from "src/app/Services/side-nav-toggle/side-nav-toggle.service";
+import { Link } from "../../Classes/link/link";
+import { SideNavToggleService } from "../../Services/side-nav-toggle/side-nav-toggle.service";
 @Component({
   selector: "app-nav-menu",
   templateUrl: "./nav-menu.component.html",

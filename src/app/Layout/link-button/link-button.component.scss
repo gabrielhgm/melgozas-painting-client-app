@@ -1,0 +1,22 @@
+$desktop: 960px;
+$tablet: 768px;
+$mobile-large: 640px;
+$mobile: 480px;
+$mobile-small: 300px;
+
+.button-icon {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 15px;
+  vertical-align: middle;
+  float: left;
+}
+.button-desc {
+  float: left;
+}
+@media only screen and (max-width: $mobile-large) {
+  .redirect-button {
+    width: 100%;
+    float: left;
+  }
+}

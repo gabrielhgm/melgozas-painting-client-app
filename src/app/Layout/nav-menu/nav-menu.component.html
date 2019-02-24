@@ -1,0 +1,11 @@
+<mat-sidenav-container class="example-sidenav-container">
+    <mat-sidenav #snav  [mode]="'over'" [fixedInViewport]="always" fixedTopGap="65">
+      <mat-nav-list fxLayout="column">
+        <app-link-button  *ngFor='let page of pages' [redict]='page' routerLink="page.address"></app-link-button>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <p *ngFor="let content of fillerContent">{{content}}</p>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

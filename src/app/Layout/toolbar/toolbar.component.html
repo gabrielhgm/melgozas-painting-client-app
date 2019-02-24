@@ -1,0 +1,14 @@
+<mat-toolbar color="primary" class="mat-elevation-z8" fxFlex="1 1 100%">
+  <button *ngIf='mobileQuery.matches' mat-icon-button (click)="toggle()"><mat-icon>menu</mat-icon></button>
+  <span>
+    <img src="assets/dark_logo_transparent.svg" class='logo'>
+  </span>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+  <div class="button-layout-row">
+    <app-link-button  *ngFor='let page of pages' [redict]='page'></app-link-button>
+  </div>
+  
+  
+</mat-toolbar>

@@ -1,0 +1,38 @@
+$desktop: 960px;
+$tablet: 768px;
+$mobile-large: 640px;
+$mobile: 480px;
+$mobile-small: 300px;
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.button-layout-row button,
+.button-layout-row a {
+  margin-right: 8px;
+}
+
+.logo {
+  vertical-align: middle;
+  margin-left: 10px;
+  height: 54px;
+}
+
+@media only screen and (max-width: $mobile-large) {
+  .logo {
+    vertical-align: middle;
+    margin-left: 2px;
+    height: 54px;
+  }
+  .button-layout-row button,
+  .button-layout-row a {
+    margin-right: 4px;
+    visibility: hidden;
+  }
+  .button-layout-row {
+    visibility: hidden;
+  }
+}
